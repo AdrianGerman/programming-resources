@@ -38,13 +38,15 @@ const imageResources = [
 ]
 ---
 
-<section class="dark:bg-[#00000098] bg-slate-300 p-4 rounded-lg shadow-xl">
+<section
+  class="dark:bg-[#00000098] bg-slate-300 p-4 rounded-lg shadow-xl mb-40"
+>
   <h1 id="imagenes" class="mb-6 text-3xl font-bold">Imágenes</h1>
 
   <div class="grid grid-cols-1 justify-center gap-4">
     {
       imageResources.map((info) => (
-        <div class="border border-white p-2 rounded-lg shadow-md flex flex-col gap-2 items-start">
+        <div class="border dark:border-white border-black/20 p-2 rounded-lg shadow-md flex flex-col gap-2 items-start">
           <h2 class="text-xl font-bold">{info.name}</h2>
           <p>{info.description}</p>
           <a
