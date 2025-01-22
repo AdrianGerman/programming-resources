@@ -1,31 +1,5 @@
 ---
-const imageResources = [
-  {
-    name: "Flowbite",
-    url: "https://flowbite.com/",
-    description: "Componentes para la mayoría de frameworks con TailwindCSS."
-  },
-  {
-    name: "Tabler",
-    url: "https://tabler.io/icons",
-    description: ""
-  },
-  {
-    name: "Heroicons",
-    url: "https://heroicons.com/",
-    description: ""
-  },
-  {
-    name: "Ibelick",
-    url: "http://bg.ibelick.com/",
-    description: ""
-  },
-  {
-    name: "svgl",
-    url: "https://svgl.app/",
-    description: "Editor de imágenes estilo Photoshop pero web y gratuito."
-  }
-]
+import { designResources } from "../data/designData"
 ---
 
 <section
@@ -35,7 +9,7 @@ const imageResources = [
 
   <div class="grid grid-cols-1 justify-center gap-4">
     {
-      imageResources.map((info) => (
+      designResources.map((info) => (
         <div class="border dark:border-white border-black/20 p-2 rounded-lg shadow-md flex flex-col gap-2 items-start">
           <h2 class="text-xl font-bold">{info.name}</h2>
           <p>{info.description}</p>
