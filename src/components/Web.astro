@@ -1,0 +1,27 @@
+---
+import { webResources } from "../data/webData"
+---
+
+<section
+  id="webs"
+  class="dark:bg-[#00000098] bg-slate-300 p-4 rounded-lg shadow-xl"
+>
+  <h1 class="mb-6 text-3xl font-bold">Webs</h1>
+
+  <div class="grid grid-cols-1 justify-center gap-4">
+    {
+      webResources.map((info) => (
+        <div class="border dark:border-white border-black/20 p-2 rounded-lg shadow-md flex flex-col gap-2 items-start">
+          <h2 class="text-xl font-bold">{info.name}</h2>
+          <p>{info.description}</p>
+          <a
+            href={info.url}
+            class="bg-slate-200 dark:bg-slate-900 py-3 px-2 rounded-xl text-sm"
+          >
+            Ir al sitio
+          </a>
+        </div>
+      ))
+    }
+  </div>
+</section>
