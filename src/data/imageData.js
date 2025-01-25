@@ -64,35 +64,35 @@ export const imageResources = [
   {
     name: "Imgur",
     url: "https://imgur.com/",
-    img: "/public/image/imgur.webp",
+    img: "/image/imgur.webp",
     description:
       "Web para subir tus imágenes y posteriormente poderlas usar en tus webs con url."
   },
   {
     name: "Postimages",
     url: "https://postimages.org/es/",
-    img: "/public/image/postimages.webp",
+    img: "/image/postimages.webp",
     description:
       "Web para subir imágenes, conseguir enlaces permanentes o temporales para nuestras webs."
   },
   {
     name: "Digital inspiration",
     url: "https://www.labnol.org/embed/google/drive/",
-    img: "/public/image/digital.webp",
+    img: "/image/digital.webp",
     description:
       "Genera enlaces de imágenes de google drive, para usarlos en tus paginas web."
   },
   {
     name: "Lorem Picsum",
     url: "https://picsum.photos/",
-    img: "/public/image/picsum.webp",
+    img: "/image/picsum.webp",
     description:
       "Generador de imágenes aleatorias, para el uso web y practicas de diseño."
   },
   {
     name: "Base64 image",
     url: "https://www.base64-image.de/",
-    img: "/public/image/base64.webp",
+    img: "/image/base64.webp",
     description: "Convierte tus imágenes en base 64."
   }
 ]
