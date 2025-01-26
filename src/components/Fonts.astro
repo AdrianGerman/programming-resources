@@ -8,7 +8,7 @@ import { fontsResources } from "../data/FontsData"
   <div class="flex flex-col justify-center gap-4">
     {
       fontsResources.map((info) => (
-        <div class="flex flex-col gap-2 items-start">
+        <div class="flex flex-col gap-4 items-start">
           <h2 class="text-2xl font-bold underline">{info.name}</h2>
           <img src={info.img} alt={info.name} class="rounded-lg" />
           <p>{info.description}</p>
